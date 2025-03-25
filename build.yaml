@@ -31,7 +31,8 @@ include:
   - board: nice_nano_v2
     shield: corne_right
     artifact-name: corne_right_test
-    cmake-args: -DSHIELD=corne_right -DBOARD_ROOT=boards
+    cmake-args: -DSHIELD=corne_right -DBOARD_ROOT=boards -DSHIELD_ROOT=boards/shields
+
     # shield: corne_left nice_view_adapter nice_oled
     # shield: corne_right nice_view_adapter nice_view
     # artifact-name: nice_corne_right_oled
